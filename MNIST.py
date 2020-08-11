@@ -19,7 +19,7 @@ class MNIST:
     Y = tf.placeholder(tf.float32, [None, 10])
 
     p_keep_conv = tf.placeholder(tf.float32)
-    p_keep_hidden = tf.placeholder(tf.float32)
+    p_keep_hidden = tf.placeholder(tf.fl`oat32)
 
     def __init__(self, model_path=None, data_path=None):
         self.model_path = model_path
