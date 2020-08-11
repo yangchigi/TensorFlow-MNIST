@@ -11,7 +11,7 @@ class MNIST:
     model_path = None
     data_path = None
 
-    sess = None
+    sess = Nonedfg
     model = None
     mnist = None
 
